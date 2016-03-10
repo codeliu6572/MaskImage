@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68142B7C1C91657A00DD7CC0 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68142B7B1C91657A00DD7CC0 /* fire.jpg */; };
 		686108B01C570C3D00AEC42B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 686108AF1C570C3D00AEC42B /* main.m */; };
 		686108B31C570C3D00AEC42B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686108B21C570C3D00AEC42B /* AppDelegate.m */; };
 		686108B61C570C3D00AEC42B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686108B51C570C3D00AEC42B /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		686108BE1C570C3D00AEC42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686108BC1C570C3D00AEC42B /* LaunchScreen.storyboard */; };
 		686108C91C570C3D00AEC42B /* MaskImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 686108C81C570C3D00AEC42B /* MaskImageTests.m */; };
 		686108D41C570C3D00AEC42B /* MaskImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 686108D31C570C3D00AEC42B /* MaskImageUITests.m */; };
+		686108E21C570C6400AEC42B /* 80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = 686108E11C570C6400AEC42B /* 80X80.png */; };
+		686108E41C570C8300AEC42B /* man_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 686108E31C570C8300AEC42B /* man_center.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68142B7B1C91657A00DD7CC0 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
 		686108AB1C570C3D00AEC42B /* MaskImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686108AF1C570C3D00AEC42B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		686108B11C570C3D00AEC42B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		686108CF1C570C3D00AEC42B /* MaskImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686108D31C570C3D00AEC42B /* MaskImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageUITests.m; sourceTree = "<group>"; };
 		686108D51C570C3D00AEC42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686108E11C570C6400AEC42B /* 80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80X80.png; sourceTree = "<group>"; };
+		686108E31C570C8300AEC42B /* man_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man_center.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				686108B21C570C3D00AEC42B /* AppDelegate.m */,
 				686108B41C570C3D00AEC42B /* ViewController.h */,
 				686108B51C570C3D00AEC42B /* ViewController.m */,
+				686108E31C570C8300AEC42B /* man_center.png */,
+				68142B7B1C91657A00DD7CC0 /* fire.jpg */,
+				686108E11C570C6400AEC42B /* 80X80.png */,
 				686108B71C570C3D00AEC42B /* Main.storyboard */,
 				686108BA1C570C3D00AEC42B /* Assets.xcassets */,
 				686108BC1C570C3D00AEC42B /* LaunchScreen.storyboard */,
@@ -243,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686108E21C570C6400AEC42B /* 80X80.png in Resources */,
+				68142B7C1C91657A00DD7CC0 /* fire.jpg in Resources */,
+				686108E41C570C8300AEC42B /* man_center.png in Resources */,
 				686108BE1C570C3D00AEC42B /* LaunchScreen.storyboard in Resources */,
 				686108BB1C570C3D00AEC42B /* Assets.xcassets in Resources */,
 				686108B91C570C3D00AEC42B /* Main.storyboard in Resources */,
@@ -496,6 +508,7 @@
 				686108DA1C570C3D00AEC42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686108DB1C570C3D00AEC42B /* Build configuration list for PBXNativeTarget "MaskImageTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				686108DD1C570C3D00AEC42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686108DE1C570C3D00AEC42B /* Build configuration list for PBXNativeTarget "MaskImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				686108E01C570C3D00AEC42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
