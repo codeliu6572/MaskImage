@@ -26,12 +26,8 @@
     imageView.image=image;
     [self.view addSubview:imageView];
     
-    
-    UIView *layerView=[[UIView alloc]initWithFrame:CGRectMake(100, 100, 150, 150)];
-    [self.view addSubview:layerView];
-    
     CALayer *layer=[CALayer layer];
-    layer.frame=layerView.bounds;
+    layer.frame=imageView.bounds;
     UIImage *maskImage=[UIImage imageNamed:@"man_center.png"];
     layer.contents=(__bridge id)maskImage.CGImage;
     imageView.layer.mask=layer;
